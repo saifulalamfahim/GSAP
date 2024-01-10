@@ -125,7 +125,7 @@ h1.header {
     transition: 0.3s all;
 }
 
-.menu-link:hover .menu-link:after {
+.menu-link:hover.menu-link:after {
     width: 100%;
 }
 
