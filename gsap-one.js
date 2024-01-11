@@ -1,3 +1,22 @@
+ 
+var tl = gsap.timeline();
+
+tl.from("nav", {
+    opacity:0,
+    duration:2,
+    delay:0.3,
+});
+
+tl.from("nav img, nav li, .button", {
+    y: -100,
+    duration:1,
+    stagger: 1,
+    opacity: 0,
+})
+
+
+
+
 // gsap.to("#box", {
 //     x: 900,
 //     duration: 2,
