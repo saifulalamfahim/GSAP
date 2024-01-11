@@ -50,8 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     document.querySelector(".menu-btn-open").addEventListener("click", openMenu);
-    document
-    .querySelector(".menu-close-btn")
-    .addEventListener("click", closeMenu);
+    document.querySelector(".menu-close-btn").addEventListener("click", closeMenu);
+    // document.querySelector(".menu-link").addEventListener("click", closeMenu);
     tl.reverse();
 });

@@ -9,19 +9,53 @@ html, body {
     width: 100%;
 }
 
-/* #box {
-    height: 200px;
-    width: 200px;
+#main {
+    height: 100%;
+    width: 100%;
     background-color: black;
-    right: 0%;
-} */
+    color: azure;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px 20px 5px;
+    background-color: blue;
+}
+
+nav img {
+    height: 50px;
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+}
 
 h1 {
-    color: aqua;
+    font-size: 98px;
+    margin-bottom: 20px;
 }
 h2 {
-    color: blue;
+    font-size: 66px;
+    margin-bottom: 20px;
 }
 h3 {
-    color: blueviolet;
+    font-size: 34px;
+    margin-bottom: 40px;
 }

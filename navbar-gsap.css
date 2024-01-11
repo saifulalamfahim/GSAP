@@ -1,5 +1,5 @@
 :root {
-    --color-menu-overlay: #a0e806;
+    --color-menu-overlay: #e7dfdff1;
     --color-menu-text: #000;
     --color-divider: #000000;
 }
@@ -187,8 +187,12 @@ h1.header {
 
 
 @media(max-width: 900px) {
+    h1.header {
+        font-size: 20px;
+    }
     .menu-overlay {
-        height: 100vh;
+        /* height: 200vh; */
+        /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
     }
     .menu-cols {
         display: block;
