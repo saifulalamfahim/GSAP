@@ -3,15 +3,33 @@ var tl = gsap.timeline();
 
 tl.from("nav", {
     opacity:0,
-    duration:2,
+    duration:0.5,
     delay:0.3,
 });
 
 tl.from("nav img, nav li, .button", {
     y: -100,
-    duration:1,
+    duration:0.5,
     stagger: 1,
     opacity: 0,
+});
+
+
+tl.from(".hero h1,.hero h2,.hero h3 ", {
+    scale:2,
+    stagger:1,
+    opacity:0,
+});
+
+tl.from(".hero p", {
+    opacity:0,
+});
+
+tl.to(".hero p", {
+    y:50,
+    repeat: -1,
+    duration:1,
+    yoyo:true,
 })
 
 
